@@ -1,0 +1,12 @@
+dns
+urllib 
+pandas
+datetime
+streamlit
+pyspark
+matplotlib
+numpy
+os
+geopy.geocoders
+geopy.distance
+pydeck
