@@ -1,11 +1,11 @@
-Title,Publisher,Type,Subject,Link to Resource,Grade Levels,Advanced
-Title 1,Publisher 1,Paper,Math,Link 1,9,FALSE
-Title 2,Publisher 2,Digital,English,Link 2,10,FALSE
-Title 3,Publisher 3,Paper,History & Social Studies,Link 3,11,TRUE
-Title 4,Publisher 4,Digital,Science,Link 4,12,TRUE
-Title 5,Publisher 5,Paper,Foreign Language,Link 5,9-12,FALSE
-Title 6,Publisher 6,Digital,Religion,Link 6,10,FALSE
-Title 7,Publisher 7,Paper,Computer Science,Link 7,10,TRUE
-Title 8,Publisher 8,Digital,Math,Link 8,9,FALSE
-Title 9,Publisher 9,Paper,English,Link 9,11-12,TRUE
-Title 10,Publisher 10,Digital,History & Social Studies,Link 10,11-12,FALSE
+Title,Publisher,Format,Subject,Cost,Link to Resource,Grade Levels,Advanced
+Title 1,Publisher 1,Paper,Math,$200,Link 1,9,FALSE
+Title 2,Publisher 2,Digital,English,$9.99,Link 2,10,FALSE
+Title 3,Publisher 3,Paper,History & Social Studies,FREE,Link 3,11,TRUE
+Title 4,Publisher 4,Digital,Science,FREE,Link 4,12,TRUE
+Title 5,Publisher 5,Paper,Foreign Language,$50,Link 5,9-12,FALSE
+Title 6,Publisher 6,Digital,Religion,$99,Link 6,10,FALSE
+Title 7,Publisher 7,Paper,Computer Science,FREE,Link 7,10,TRUE
+Title 8,Publisher 8,Digital,Math,FREE,Link 8,9,FALSE
+Title 9,Publisher 9,Paper,English,$35,Link 9,11-12,TRUE
+Title 10,Publisher 10,Digital,History & Social Studies,$19.99,Link 10,11-12,FALSE
