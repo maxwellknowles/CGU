@@ -25,7 +25,7 @@ st.title('Title')
 st.text("Hi there!")
 
 
-state_requirements = pd.read_csv("https://raw.githubusercontent.com/maxknowles27/CGU/file.csv")
+state_requirements = pd.read_csv("https://raw.githubusercontent.com/2Maximus7/CGU/main/Homeschool%20Project%20MVP%20-%20State%20High%20School%20Grad%20Requirements.csv")
 st.dataframe(state_requirements)
 #latlong_data = pd.read_csv("https://raw.githubusercontent.com/maxwell4zero/zerogrocery/master/CA%20Farms%20-%20Mock%20Farm%20Lat%20Lon.csv")
 ##latlong = []
