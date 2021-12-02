@@ -23,6 +23,7 @@ font="sans serif"
 
 st.title('Catalyst')
 st.header('Early Prototype')
+st.sidebar.header('Filter on what matters most to you and your family...')
 
 state_requirements = pd.read_csv("https://raw.githubusercontent.com/2Maximus7/CGU/main/Homeschool%20Project%20MVP%20-%20State%20High%20School%20Grad%20Requirements.csv")
 
@@ -52,7 +53,8 @@ st.text("Hi there!")
 ##
 ##st.write("Outside the form")
 
-st.subheader('State High School Credit Requirements')
+st.subheader('High School Credit Requirements by State')
+st.sidebar.subheader('State Requirements')
 state = st.sidebar.selectbox('Filter by state',
 ('All States','Alabama', 'District of Columbia', 'New Mexico', 'Louisiana', 'West Virginia', 'Alaska', 'Arkansas',
  'Mississippi', 'Nevada', 'Hawaii', 'California', 'Oklahoma', 'Rhode Island', 'South Carolina', 'Delaware',
@@ -69,14 +71,17 @@ else:
     state_requirements_state = state_requirements.loc[(state_requirements['State']==state)]
     st.dataframe(state_requirements_state)
 
-st.subheader('State Homeschool Requirements')
+st.subheader('Homeschool Requirements by State')
 homeschool_requirements = pd.read_csv("https://raw.githubusercontent.com/2Maximus7/CGU/main/Homeschool%20Project%20MVP%20-%20Homeschool%20Requirements.csv")
 if state == 'All States':
     st.dataframe(homeschool_requirements)
 else:
     homeschool_requirements.loc[(homeschool_requirements['State']==state)]
 
-st.subheader('Coursework')
+st.write('You are looking at the specific homeschool requirements for:', state)
+
+st.sidebar.subheader('Curricular Choices')
+st.subheader('Curricular Options')
 mock_curricula = pd.read_csv("https://raw.githubusercontent.com/2Maximus7/CGU/main/Homeschool%20Project%20MVP%20-%20Mock%20Curricula%20Data%20(1).csv")
 subject = st.sidebar.selectbox('Filter by subject',('All',
  'Math',
@@ -89,10 +94,10 @@ subject = st.sidebar.selectbox('Filter by subject',('All',
  'Math',
  'English',
  'History & Social Studies'))
-#grade = st.selectbox('Filter by grade',('All','9', '10', '11', '12', '9-12', '10', '10', '9', '11-12', '11-12'))
+grade = st.sidebar.selectbox('Filter by grade',('All','9', '10', '11', '12'))
 #advanced = st.selectbox('Filter by subject',('All',list(mock_curricula['Advanced'])))
-#form = st.selectbox('Filter by subject',('All',list(mock_curricula['Format'])))
 free = st.sidebar.checkbox('Free Resources Only')
+online = st.sidebar.checkbox('Online Resources Only')
 
 #subject
 if subject == 'All':
@@ -101,16 +106,22 @@ else:
     mock_curricula2 = mock_curricula.loc[(mock_curricula['Subject']==subject)]
 
 #grade
-#if grade == 'All':
+if grade == 'All':
     mock_curricula3 = mock_curricula2
-#else:
- #   mock_curricula3 = mock_curricula2.loc[(mock_curricula2['Grade Level']==grade)]
+else:
+    mock_curricula3 = mock_curricula2.loc[(mock_curricula2['Grade Levels']==grade)]
 
 #free
 if not free:
-    st.dataframe(mock_curricula2)
+    mock_curricula4 = mock_curricula3
 else:
-    mock_curricula2.loc[(mock_curricula2['Cost']=='FREE')]
+    mock_curricula4 = mock_curricula3.loc[(mock_curricula3['Cost']=='FREE')]
+
+#online
+if not online:
+    st.dataframe(mock_curricula4)
+else:
+    mock_curricula4.loc[(mock_curricula4['Format']=='Digital')]
 
 st.subheader('Find Homeschooling Groups')
 
@@ -121,4 +132,3 @@ st.text('https://www.homeschool.com/supportgroups/')
 st.subheader('Sources')
 st.text('https://www.homeschool.com/articles/state-homeschooling-laws/')
 st.text('https://nces.ed.gov/programs/statereform/tab2_13.asp')
-
