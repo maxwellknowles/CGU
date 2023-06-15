@@ -1,25 +1,24 @@
 resource,link,description,form
-Austin Public Library — Virtual Library Home,https://library.austintexas.gov/virtual,"Read, listen, watch on your computer or mobile device 24/7 when you download or stream eBooks, eAudiobooks, magazines, movies and music.",Platform
-Austin Public Library — Job Portal,https://library.austintexas.gov/jobportal,This Job Portal was created during the COVID-19 Pandemic as a way for Library staff to offer help to the Austin community through a challenging and uncertain job market.,Platform
-Austin Public Library — eBooks & eAudiobooks,https://library.austintexas.gov/jobportal,"eBooks and eAudiobooks for your eReaders, computers and other devices.",Platform
-Austin Public Library — Education and Training,https://library.austintexas.gov/virtual/education-and-training,"Tutorials, courses and practice tests for adult learners. Journal articles about education topics.",Platform
-Austin Public Library — Entertainment,https://library.austintexas.gov/database-subjects/entertainment,"Online eBooks, audiobooks, comics, magazines, music, TV shows and movies",Platform
-Austin Public Library — Magazines & Newspapers,https://library.austintexas.gov/databases/all?sub=504&type=2418&aud%5B%5D=29,Articles from popular magazines & newspapers. Use eJournal Finder to find a specific magazine or newspaper in our online resources.,Platform
-Austin Public Library — Research & Databases,https://library.austintexas.gov/databases/subjects,"The Austin Public Library subscribes to a variety of online resources for your information, education and entertainment.",Platform
-Austin Public Library — AHC Digital Collections,https://ahc.access.preservica.com/,"The Austin History Center’s mission is to procure, preserve, present and provide the historical records that make up Austin’s unique story.",Platform
-Austin Public Library — Business,https://library.austintexas.gov/databases/all?sub=63&type=All,"Marketing tools, company and investment information, business plans, directories, interactive maps and metrics.",Platform
-Austin Public Library — eJournal Finder,http://yl9ar3tq5l.search.serialssolutions.com/,Find online magazines and journals,Platform
-Austin Public Library — Genealogy,https://library.austintexas.gov/databases/all?sub=72&type=All,Build your family tree. Find facts about famous people and residential directory information.,Platform
-Austin Public Library — Homework Help,https://library.austintexas.gov/database-subjects/homework-help?sub=499,"Online tutoring, school report sources, video tutorials and research tools for K-12 students.",Platform
-Austin Public Library — Information Guides,https://library.austintexas.libguides.com/,Our information guides connect you with the best answers and inspiration to explore a variety of topics. Contact us if you need more help!,Platform
-Austin Public Library — Events,https://library.austintexas.gov/events,"Book clubs, crafts, activities, and puppet shows",Platform
-Austin Public Library — Computers & Technology,https://library.austintexas.gov/events/computers-technology,"Drop in for free computer training at several Library locations throughout town. Our classes cover topics such as how to use email, look for a job, put finishing touches on your résumé and navigate social media.",Platform
-Austin Public Library — Storytime,https://library.austintexas.gov/storytime-info,"Storytime makes learning fun! Storytimes act as an integral part of early literacy education by introducing young children to books, rhymes, music and other literacy-based activities. Austin Public Library offers programs matched to the typical attention spans and developmental levels of different ages of children.",Platform
-Austin Public Library — Spanish Web,https://library.austintexas.gov/es,eBooks in Spanish for children,Platform
-Austin Public Library — Language Access Cards,https://www.austintexas.gov/ispeak-resources,Use your iSpeak Austin language access card to request language services!,Platform
-Austin Public Library — Ask a Librarian,https://library.austintexas.libanswers.com/,Search our FAQs or contact us for library and research help.,Platform
-Austin Public Library — Citizenship / Ciudadanía,https://library.austintexas.gov/events/citizenship-ciudadania,"Learn about the US immigration process.
-
-Aprenda sobre el proceso de inmigración.",Platform
-Austin Public Library — Language Practice,https://library.austintexas.gov/events/language-practice,Need to practice English or Spanish? Our Language Practice sessions can help!,Platform
-Austin Public Library — Resources for New Immigrants,https://library.austintexas.gov/nip,"Austin Public Library (APL) provides information and services to Austin's new, primarily non-English-speaking, immigrant population. All of our branches offer ESL materials and access to online resources to learn English as a Second Language.",Platform
+Austin Public Library — Virtual Library Home,https://library.austintexas.gov/virtual,"Read, listen, watch on your computer or mobile device 24/7 when you download or stream eBooks, eAudiobooks, magazines, movies and music.",Library
+Austin Public Library — Job Portal,https://library.austintexas.gov/jobportal,This Job Portal was created during the COVID-19 Pandemic as a way for Library staff to offer help to the Austin community through a challenging and uncertain job market.,Library
+Austin Public Library — eBooks & eAudiobooks,https://library.austintexas.gov/jobportal,"eBooks and eAudiobooks for your eReaders, computers and other devices.",Library
+Austin Public Library — Education and Training,https://library.austintexas.gov/virtual/education-and-training,"Tutorials, courses and practice tests for adult learners. Journal articles about education topics.",Library
+Austin Public Library — Entertainment,https://library.austintexas.gov/database-subjects/entertainment,"Online eBooks, audiobooks, comics, magazines, music, TV shows and movies",Library
+Austin Public Library — Magazines & Newspapers,https://library.austintexas.gov/databases/all?sub=504&type=2418&aud%5B%5D=29,Articles from popular magazines & newspapers. Use eJournal Finder to find a specific magazine or newspaper in our online resources.,Library
+Austin Public Library — Research & Databases,https://library.austintexas.gov/databases/subjects,"The Austin Public Library subscribes to a variety of online resources for your information, education and entertainment.",Library
+Austin Public Library — AHC Digital Collections,https://ahc.access.preservica.com/,"The Austin History Center’s mission is to procure, preserve, present and provide the historical records that make up Austin’s unique story.",Library
+Austin Public Library — Business,https://library.austintexas.gov/databases/all?sub=63&type=All,"Marketing tools, company and investment information, business plans, directories, interactive maps and metrics.",Library
+Austin Public Library — eJournal Finder,http://yl9ar3tq5l.search.serialssolutions.com/,Find online magazines and journals,Library
+Austin Public Library — Genealogy,https://library.austintexas.gov/databases/all?sub=72&type=All,Build your family tree. Find facts about famous people and residential directory information.,Library
+Austin Public Library — Homework Help,https://library.austintexas.gov/database-subjects/homework-help?sub=499,"Online tutoring, school report sources, video tutorials and research tools for K-12 students.",Library
+Austin Public Library — Information Guides,https://library.austintexas.libguides.com/,Our information guides connect you with the best answers and inspiration to explore a variety of topics. Contact us if you need more help!,Library
+Austin Public Library — Events,https://library.austintexas.gov/events,"Book clubs, crafts, activities, and puppet shows",Library
+Austin Public Library — Computers & Technology,https://library.austintexas.gov/events/computers-technology,"Drop in for free computer training at several Library locations throughout town. Our classes cover topics such as how to use email, look for a job, put finishing touches on your résumé and navigate social media.",Library
+Austin Public Library — Storytime,https://library.austintexas.gov/storytime-info,"Storytime makes learning fun! Storytimes act as an integral part of early literacy education by introducing young children to books, rhymes, music and other literacy-based activities. Austin Public Library offers programs matched to the typical attention spans and developmental levels of different ages of children.",Library
+Austin Public Library — Spanish Web,https://library.austintexas.gov/es,eBooks in Spanish for children,Library
+Austin Public Library — Language Access Cards,https://www.austintexas.gov/ispeak-resources,Use your iSpeak Austin language access card to request language services!,Library
+Austin Public Library — Ask a Librarian,https://library.austintexas.libanswers.com/,Search our FAQs or contact us for library and research help.,Library
+Austin Public Library — Citizenship / Ciudadanía,https://library.austintexas.gov/events/citizenship-ciudadania,"Learn about the US immigration process. Aprenda sobre el proceso de inmigración.",Library
+Austin Public Library — Language Practice,https://library.austintexas.gov/events/language-practice,Need to practice English or Spanish? Our Language Practice sessions can help!,Library
+Austin Public Library — Resources for New Immigrants,https://library.austintexas.gov/nip,"Austin Public Library (APL) provides information and services to Austin's new, primarily non-English-speaking, immigrant population. All of our branches offer ESL materials and access to online resources to learn English as a Second Language.",Library
+Austin Public Library,,https://library.austintexas.gov/,Library
